@@ -89,10 +89,6 @@ const uas = [
     members: ['Claas', 'Nadja', 'Jannis', 'Dini', 'Janika', 'Heiko', 'Tobias', 'Tim', 'Stefan'],
     email: 'fsr@'
   },{
-    name: 'Internationalisierung',
-    members: ['Claas', 'Stefan', 'Jörn', 'Julian', 'Linh'],
-    email: 'international@'
-  },{
     name: 'LuSt',
     members: ['Tim', 'Heiko', 'Stefan'],
     email: 'lust@',
