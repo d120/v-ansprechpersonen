@@ -66,7 +66,7 @@ const activities = [
   },{
     name: 'Vereinsvorstand',
     email: 'verein-vorstand@',
-    members: ['Nadja', 'Dini', 'Simone', 'Tobias H.', 'Tim P., Heiko']
+    members: ['Dini', 'Simone', 'Tobias H.', 'Tim P., Heiko']
   },{
     name: 'Website',
     email: 'webseite@',
@@ -81,7 +81,7 @@ const uas = [
     email: 'ua-absolventen@'
   },{
     name: 'Fachbereichsrat',
-    members: ['Nadja', 'Jannis', 'Claas'],
+    members: ['Jannis', 'Claas'],
     email: 'fbr@',
     allmail: 'fbrat@informatik.tu-darmstadt.de'
   },{
