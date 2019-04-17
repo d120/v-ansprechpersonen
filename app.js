@@ -34,7 +34,7 @@ const activities = [
   },{
     name: 'Ophasenleitung',
     email: 'ophase-leitung@',
-    members: ['Fabian F.', 'Jannis', 'Dini', 'Tobias H.']
+    members: ['Tim, Janika, Dennis, Jonas H.']
   },{
     name: 'Programmiervorkurs',
     email: 'vorkurs@',
@@ -42,7 +42,7 @@ const activities = [
   },{
     name: 'Raumbuchung',
     email: 'raumbuchung@',
-    members: ['Tschäääään', 'Chris']
+    members: ['Tschäääään', 'Max K.']
   },{
     name: 'RPGnoM',
     email: 'rpgnom-orga@',
@@ -66,7 +66,7 @@ const activities = [
   },{
     name: 'Vereinsvorstand',
     email: 'verein-vorstand@',
-    members: ['Dini', 'Simone', 'Tobias H.', 'Tim P., Heiko']
+    members: ['Dini', 'Simone', 'Tim P., Fabian F.', 'Benjamin', 'Lukas']
   },{
     name: 'Website',
     email: 'webseite@',
