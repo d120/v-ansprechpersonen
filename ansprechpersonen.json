@@ -1,10 +1,6 @@
 {
   "activities": [
     {
-      "name": "Buchaktion",
-      "email": "buchaktion@",
-      "members": ["Fabian D.", "Daniel", "Dennis"]
-    },{
       "name": "Feedback",
       "email": "feedback@",
       "members": ["Heiko", "Jonas H.", "Frederik"]
@@ -19,15 +15,19 @@
     },{
       "name": "GnoM",
       "email": "gnom-orga@",
-      "members": ["Jannis", "Daniel", "Claas", "Julius", "Tschäääään"]
+      "members": ["Jannis", "Daniel S.", "Claas", "Julius", "Tschäääään"]
     },{
       "name": "Inforz",
       "email": "inforz@",
       "members": ["Heiko", "Jannis", "Fabian F.", "Tobias H."]
     },{
+      "name": "Laptop-Ausleihe",
+      "email": "ausleihe@",
+      "members": ["Locke", "Fabian F."]
+    },{
       "name": "Ofahrtleitung",
       "email": "ofahrt-leitung@",
-      "members": ["(Janika)", "Fabian D.", "Tim P.", "Benjamin"]
+      "members": ["Fabian D.", "Tim P.", "Benjamin"]
     },{
       "name": "Ophasenleitung",
       "email": "ophase-leitung@",
@@ -35,11 +35,11 @@
     },{
       "name": "Programmiervorkurs",
       "email": "vorkurs@",
-      "members": ["Kevin", "Steffen", "Jonas H", "Jonas K", "Daniel", "Jannis"]
+      "members": ["Kevin", "Steffen", "Jonas H", "Jonas K", "Daniel S.", "Jannis"]
     },{
       "name": "Raumbuchung",
       "email": "raumbuchung@",
-      "members": ["Tschäääään", "Max K."]
+      "members": ["Max K.", "Robert", "Dennis"]
     },{
       "name": "RPGnoM",
       "email": "rpgnom-orga@",
@@ -77,16 +77,16 @@
       "email": "ua-absolventen@"
     },{
       "name": "Fachbereichsrat",
-      "members": ["Jannis", "Claas", "Kevin"],
+      "members": ["Jannis", "Kevin", "Heiko"],
       "email": "fbr@",
       "allmail": "fbrat@informatik.tu-darmstadt.de"
     },{
       "name": "Fachschaftsrat",
-      "members": ["Claas", "Nadja", "Jannis", "Dini", "Janika", "Heiko", "Tobias", "Tim", "Stefan"],
+      "members": ["Jannis", "Janika", "Tobias", "Tim", "Claas", "Steffi", "Johnny", "Heiko", "Fabian D."],
       "email": "fsr@"
     },{
       "name": "LuSt",
-      "members": ["Tim", "Heiko", "Stefan"],
+      "members": ["Frederik V.", "Jannis", "Dini"],
       "email": "lust@",
       "allmail": "lust@informatik.tu-darmstadt.de"
     },{
@@ -98,8 +98,16 @@
       "members": ["Benjamin", "Julian", "Claas"],
       "email": "osa@"
     },{
+      "name": "Promotionsausschuss",
+      "members": ["Jannis", "Claas"],
+      "email": "jblueml@, cvoelcker@"
+    },{
+      "name": "Prüfungskommission",
+      "members": ["Fabian D.", "Tim"],
+      "email": "fdamken@, tpollandt@"
+    },{
       "name": "QSL",
-      "members": ["Janika", "Daniel", "Dennis", "Mark"],
+      "members": ["Janika", "Dennis", "Jonas H.", "Tobias K"],
       "email": "sg-verwendung@",
       "allmail": "qsl@informatik.tu-darmstadt.de"
     },{
