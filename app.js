@@ -20,7 +20,7 @@ var app = new Vue({
   }
 }).$mount('#app');
 
-request = new Request("ansprechpersonen.json");
+request = new Request("ansprechpersonen.json", {credentials: 'include'});
 fetch(request)
   .then(response => response.json())
   .then(function(ansprechpersonen) {
