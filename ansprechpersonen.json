@@ -27,7 +27,7 @@
     },{
       "name": "Ofahrtleitung",
       "email": "ofahrt-leitung@",
-      "members": ["Fabian D.", "Tim P.", "Benjamin"]
+      "members": ["Fabian D.", "Jannis R.", "Tim S."]
     },{
       "name": "Ophasenleitung",
       "email": "ophase-leitung@",
@@ -77,16 +77,16 @@
       "email": "ua-absolventen@"
     },{
       "name": "Fachbereichsrat",
-      "members": ["Jannis", "Kevin", "Heiko"],
+      "members": ["Fabian", "Tim", "Philip"],
       "email": "fbr@",
       "allmail": "fbrat@informatik.tu-darmstadt.de"
     },{
       "name": "Fachschaftsrat",
-      "members": ["Jannis", "Janika", "Tobias", "Tim", "Claas", "Steffi", "Johnny", "Heiko", "Fabian D."],
+      "members": ["Fabian", "Janika", "Tim Po.", "Dini", "Tobi", "Mark", "Daniel Si.", "Philip", "Philipp"],
       "email": "fsr@"
     },{
       "name": "LuSt",
-      "members": ["Frederik V.", "Jannis", "Dini"],
+      "members": ["Dini", "Daniel Si.", "Philip"],
       "email": "lust@",
       "allmail": "lust@informatik.tu-darmstadt.de"
     },{
@@ -99,21 +99,17 @@
       "email": "osa@"
     },{
       "name": "Promotionsausschuss",
-      "members": ["Jannis", "Claas"],
+      "members": ["Fabian D.", "Tim Po."],
       "email": "jblueml@, cvoelcker@"
     },{
       "name": "Prüfungskommission",
-      "members": ["Fabian D.", "Tim"],
+      "members": ["Fabian D.", "Tim Po."],
       "email": "fdamken@, tpollandt@"
     },{
       "name": "QSL",
-      "members": ["Janika", "Dennis", "Jonas H.", "Tobias K"],
+      "members": ["Fabian D.", "Tim S.", "Jannis R.", "Pia"],
       "email": "sg-verwendung@",
       "allmail": "qsl@informatik.tu-darmstadt.de"
-    },{
-      "name": "Vernetzung / Studentische Selbstverwaltung",
-      "members": ["Tim", "Dini", "Janika", "Fabian D.", "Christian A.", "Tobias H.", "Dennis", "Lukas U."],
-      "email": "vernetzung@"
     }
   ]
 }
