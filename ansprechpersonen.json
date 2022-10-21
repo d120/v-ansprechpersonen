@@ -7,55 +7,55 @@
     },{
       "name": "Forum",
       "email": "forum@",
-      "members": ["Jan B.", "Linh", "Michael R.", "Max"]
+      "members": []
     },{
       "name": "FSS",
       "email": "fss@",
-      "members": ["Jan H.", "Johannes L.", "Max", "Fabian F.", "Fabian D."]
+      "members": ["Heiko", "Joachim", "Fabian F.", "Mira", "Jan"]
     },{
       "name": "GnoM",
       "email": "gnom-orga@",
-      "members": ["Jannis", "Daniel S.", "Claas", "Julius", "Tschäääään"]
+      "members": ["Benjamin B.", "Philipp M.", "Sebastian", "Jannis B."]
     },{
       "name": "Inforz",
       "email": "inforz@",
-      "members": ["Heiko", "Jannis", "Fabian F.", "Tobias H."]
+      "members": []
     },{
       "name": "Laptop-Ausleihe",
       "email": "ausleihe@",
-      "members": ["Locke", "Fabian F."]
+      "members": ["Fabian F."]
     },{
       "name": "Ofahrtleitung",
       "email": "ofahrt-leitung@",
       "members": ["Fabian D.", "Jannis R.", "Tim S."]
     },{
-      "name": "Ophasenleitung",
+      "name": "Ophasenleitung (WiS 2022)",
       "email": "ophase-leitung@",
-      "members": ["Tim, Janika, Dennis, Jonas H."]
+      "members": ["Jannis R.", "Luca", "Jonathan", "Noah"]
     },{
       "name": "Programmiervorkurs",
       "email": "vorkurs@",
-      "members": ["Kevin", "Steffen", "Jonas H", "Jonas K", "Daniel S.", "Jannis"]
+      "members": ["Kevin", "Jonas H.", "Ruben"]
     },{
       "name": "Raumbuchung",
       "email": "raumbuchung@",
-      "members": ["Max K.", "Robert", "Dennis"]
+      "members": ["Hannah", "Pia", "Jan R."]
     },{
       "name": "RPGnoM",
       "email": "rpgnom-orga@",
-      "members": ["Tobias H.", "Claas"]
+      "members": ["Jonathan"]
     },{
-      "name": "Sommerfest",
-      "members": ["Maggi", "Lukas", "Melanie", "Heiko", "Claas"],
+      "name": "Sommerfest (Orga 2022)",
+      "members": ["Luca", "Robert", "Jannik"],
       "email": "sommerfest@"
     },{
       "name": "Transponderbeauftragte",
-      "email": "dini@, jwillich@",
-      "members": ["Dini", "Julius"]
+      "email": "dini@",
+      "members": ["Dini"]
     },{
       "name": "Universitätserfahrung",
       "email": "ue@",
-      "members": ["Steffi", "Tim"]
+      "members": ["Hannah", "Denys"]
     },{
       "name": "Verein",
       "email": "verein@",
@@ -65,19 +65,19 @@
       "email": "verein-vorstand@",
       "members": ["Dini", "Simone", "Tim P.", "Fabian F.", "Benjamin", "Lukas"]
     },{
-      "name": "Website",
+      "name": "Webseite",
       "email": "webseite@",
-      "members": ["Benjamin", "Daniel S.", "Heiko", "Jan B."]
+      "members": ["Tristan", "Joachim"]
     }
   ],
   "uas": [
     {
-      "name": "Absolventen",
-      "members": ["Nadja", "Kevin", "Jörn"],
+      "name": "Absolvent*innen",
+      "members": ["Kevin", "Janika"],
       "email": "ua-absolventen@"
     },{
       "name": "Fachbereichsrat",
-      "members": ["Fabian", "Tim", "Philip"],
+      "members": ["Fabian D.", "Tim Po.", "Philip H."],
       "email": "fbr@",
       "allmail": "fbrat@informatik.tu-darmstadt.de"
     },{
@@ -91,22 +91,22 @@
       "allmail": "lust@informatik.tu-darmstadt.de"
     },{
       "name": "Mentorensystem",
-      "members": ["Jannis", "Michael R."],
+      "members": [""],
       "email": "ua-mentorensystem@"
     },{
       "name": "OSA",
-      "members": ["Benjamin", "Julian", "Claas"],
+      "members": [""],
       "email": "osa@"
     },{
       "name": "Promotionsausschuss",
       "members": ["Fabian D.", "Tim Po."],
-      "email": "jblueml@, cvoelcker@"
+      "email": "fdamken@, tpollandt@"
     },{
       "name": "Prüfungskommission",
       "members": ["Fabian D.", "Tim Po."],
       "email": "fdamken@, tpollandt@"
     },{
-      "name": "QSL",
+      "name": "LeNA (QSL)",
       "members": ["Fabian D.", "Tim S.", "Jannis R.", "Pia"],
       "email": "sg-verwendung@",
       "allmail": "qsl@informatik.tu-darmstadt.de"
