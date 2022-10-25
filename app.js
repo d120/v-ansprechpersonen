@@ -1,22 +1,31 @@
 const Home = { template: '#home-template' }
-const Activities = { template: '#activities-template', props: ['activities'] }
-const UAs = { template: '#uas-template', props: ['uas'] }
+const Committees = { template: '#committees-template', props: ['committees'] }
+const CommitteesCentral = { template: '#committeesCentral-template', props: ['committeesCentral'] }
+const Events = { template: '#events-template', props: ['events'] }
+const Internal = { template: '#internal-template', props: ['internal'] }
+const Services = { template: '#services-template', props: ['services'] }
 
 const router = new VueRouter({
   mode: 'hash',
   base: '',
   routes: [
     { path: '/', component: Home },
-    { path: '/activities', component: Activities, props: true },
-    { path: '/uas', component: UAs, props: true }
+    { path: '/committees', component: Committees, props: true },
+    { path: '/committeesCentral', component: CommitteesCentral, props: true },
+    { path: '/events', component: Events, props: true },
+    { path: '/internal', component: Internal, props: true },
+    { path: '/services', component: Services, props: true }
   ]
 });
 
 var app = new Vue({
   router,
   data: {
-    activities: [],
-    uas: [],
+    committees: [],
+    committeesCentral: [],
+    events: [],
+    internal: [],
+    services: [],
   }
 }).$mount('#app');
 
@@ -24,6 +33,9 @@ request = new Request("ansprechpersonen.json", {credentials: 'include'});
 fetch(request)
   .then(response => response.json())
   .then(function(ansprechpersonen) {
-    app.activities = ansprechpersonen.activities;
-    app.uas = ansprechpersonen.uas;
+    app.committees = ansprechpersonen.committees;
+    app.committeesCentral = ansprechpersonen.committeesCentral;
+    app.events = ansprechpersonen.events;
+    app.internal = ansprechpersonen.internal;
+    app.services = ansprechpersonen.services;
   })

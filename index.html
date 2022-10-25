@@ -7,66 +7,154 @@
   </head>
   <body>
     <div id="app">
-      <router-view class="view" :activities="activities" :uas="uas"></router-view>
+      <router-view class="view" :committees="committees" :committeesCentral="committeesCentral" :events="events" :internal="internal" :services="services"></router-view>
     </div>
 
     <template id="home-template">
       <div id="home">
-        <router-link to="/activities">Activities</router-link>
-        <router-link to="/uas">UAs</router-link>
+        <router-link to="/committees">Committees</router-link>
+        <router-link to="/committeesCentral">Committees (central)</router-link>
+        <router-link to="/events">Events</router-link>
+        <router-link to="/internal">Internal</router-link>
+        <router-link to="/services">Services</router-link>
       </div>
     </template>
 
-    <template id="activities-template">
-      <div id="activities">
+    <template id="committees-template">
+      <div id="committees">
         <table class="table">
           <thead>
             <tr>
-              <th>Aktivit&auml;t</th>
-              <th>Mitglieder</th>
-              <th>Kontaktaddresse</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr v-for="activity in activities">
-              <td>{{activity.name}}</td>
-              <td><span class="name" v-for="member in activity.members">{{member}}</span></td>
-              <td>{{activity.email}}</td>
-            </tr>
-          </tbody>
-        </table>
-
-        <p class="info">
-          An alle unvollständigen Mailadressen „d120.de“ anhängen.<br>
-          Änderungen bitte im (privaten) GitHub eintragen und neu ausdrucken!
-        </p>
-      </div>
-    </template>
-
-    <template id="uas-template">
-      <div id="uas">
-        <table class="table">
-          <thead>
-            <tr>
-              <th>Unterausschuss</th>
+              <th>Gremium</th>
               <th>Mitglieder</th>
               <th>Kontaktaddresse (Studierende)</th>
               <th>Kontaktaddresse (Alle)</th>
             </tr>
           </thead>
           <tbody>
-            <tr v-for="ua in uas">
-              <td>{{ua.name}}</td>
-              <td><span class="name" v-for="member in ua.members">{{member}}</span></td>
-              <td>{{ua.email}}</td>
-              <td>{{ua.allmail}}</td>
+            <tr v-for="committee in committees">
+              <td>{{committee.name}}</td>
+              <td><span class="name" v-for="member in committee.members">{{member}}</span></td>
+              <td>{{committee.mail}}</td>
+              <td>{{committee.allmail}}</td>
             </tr>
           </tbody>
         </table>
 
         <p class="info">
-          An alle unvollständigen Mailadressen „d120.de“ anhängen.<br>
-          Änderungen bitte im (privaten) GitHub eintragen und neu ausdrucken!
+          An alle unvollständigen Mailadressen „d120.de“ anhängen.<br />
+          Änderungen bitte im GitHub eintragen und neu ausdrucken oder
+          Daniel Simon mitteilen!
+        </p>
+      </div>
+    </template>
+
+    <template id="committeesCentral-template">
+      <div id="committeesCentral">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Gremium</th>
+              <th>Mitglieder</th>
+              <th>Kontaktaddresse (Studierende)</th>
+              <th>Kontaktaddresse (Alle)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr v-for="committee in committeesCentral">
+              <td>{{committee.name}}</td>
+              <td><span class="name" v-for="member in committee.members">{{member}}</span></td>
+              <td>{{committee.mail}}</td>
+              <td>{{committee.allmail}}</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p class="info">
+          An alle unvollständigen Mailadressen „d120.de“ anhängen.<br />
+          Änderungen bitte im GitHub eintragen und neu ausdrucken oder
+          Daniel Simon mitteilen!
+        </p>
+      </div>
+    </template>
+
+    <template id="events-template">
+      <div id="events">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Veranstaltung</th>
+              <th>Verantwortliche</th>
+              <th>Kontaktaddresse</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr v-for="event in events">
+              <td>{{event.name}}</td>
+              <td><span class="name" v-for="member in event.members">{{member}}</span></td>
+              <td>{{event.mail}}</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p class="info">
+          An alle unvollständigen Mailadressen „d120.de“ anhängen.<br />
+          Änderungen bitte im GitHub eintragen und neu ausdrucken oder
+          Daniel Simon mitteilen!
+        </p>
+      </div>
+    </template>
+
+    <template id="internal-template">
+      <div id="internal">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Gruppe</th>
+              <th>Verantwortliche</th>
+              <th>Kontaktaddresse</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr v-for="group in internal">
+              <td>{{group.name}}</td>
+              <td><span class="name" v-for="member in group.members">{{member}}</span></td>
+              <td>{{group.mail}}</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p class="info">
+          An alle unvollständigen Mailadressen „d120.de“ anhängen.<br />
+          Änderungen bitte im GitHub eintragen und neu ausdrucken oder
+          Daniel Simon mitteilen!
+        </p>
+      </div>
+    </template>
+
+    <template id="services-template">
+      <div id="services">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Angebot</th>
+              <th>Verantwortliche</th>
+              <th>Kontaktaddresse</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr v-for="service in services">
+              <td>{{service.name}}</td>
+              <td><span class="name" v-for="member in service.members">{{member}}</span></td>
+              <td>{{service.mail}}</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p class="info">
+          An alle unvollständigen Mailadressen „d120.de“ anhängen.<br />
+          Änderungen bitte im GitHub eintragen und neu ausdrucken oder
+          Daniel Simon mitteilen!
         </p>
       </div>
     </template>
