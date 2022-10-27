@@ -2,8 +2,8 @@
   "committees": [
     {
       "name": "Berufungskommission (BK)",
-      "members": ["siehe FBR"],
-      "mail": "fbr@",
+      "members": ["(siehe FBR)"],
+      "mail": "(siehe FBR)",
       "allmail": ""
     },
     {
