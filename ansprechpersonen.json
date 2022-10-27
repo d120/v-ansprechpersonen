@@ -8,7 +8,7 @@
     },
     {
       "name": "Fachbereichsrat (FBR)",
-      "members": ["Fabian D.", "Tim Po.", "Philip H."],
+      "members": ["Fabian D.", "Tim Po.", "Philip H.", "Philipp M. (S)"],
       "mail": "fbr@",
       "allmail": "fbrat@informatik.tu-darmstadt.de"
     },
@@ -20,19 +20,19 @@
     },
     {
       "name": "Fachschaftsrat (FSR)",
-      "members": ["Fabian D.", "Janika", "Tim Po.", "Dini", "Tobi", "Mark", "Daniel Si.", "Philip H.", "Philipp M."],
+      "members": ["Fabian D.", "Janika", "Tim Po.", "Dini", "Tobi", "Mark", "Daniel Si.", "Philip H.", "Philipp M.", "Joachim (S)"],
       "mail": "fsr@",
       "allmail": ""
     },
     {
       "name": "Lehr- und Studienausschuss (LuSt)",
-      "members": ["Dini", "Daniel Si.", "Philip H."],
+      "members": ["Dini", "Daniel Si.", "Philip H.", "Fabian D. (SU)", "Maria (SU)", "Luca (SU)"],
       "mail": "lust@",
       "allmail": "lust@informatik.tu-darmstadt.de"
     },
     {
       "name": "Lehre Neu Aufstellen (LeNA, früher: QSL)",
-      "members": ["Fabian D.", "Tim S.", "Jannis R.", "Pia"],
+      "members": ["Fabian D.", "Tim S.", "Jannis R.", "Pia", "Jonas H. (S)", "Daniel Si. (S)", "Tim P. (S)"],
       "mail": "sg-verwendung@",
       "allmail": "qsl@informatik.tu-darmstadt.de"
     },
