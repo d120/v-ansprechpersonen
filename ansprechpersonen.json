@@ -8,7 +8,7 @@
     },
     {
       "name": "Fachbereichsrat (FBR)",
-      "members": ["Fabian D.", "Tim Po.", "Philip H.", "Philipp M. (S)"],
+      "members": ["Fabian D.", "Philip H.", "Philipp M."],
       "mail": "fbr@",
       "allmail": "fbrat@informatik.tu-darmstadt.de"
     },
@@ -20,7 +20,7 @@
     },
     {
       "name": "Fachschaftsrat (FSR)",
-      "members": ["Fabian D.", "Janika", "Tim Po.", "Dini", "Tobi", "Mark", "Daniel Si.", "Philip H.", "Philipp M.", "Joachim (S)"],
+      "members": ["Fabian D.", "Janika", "Dini", "Tobi", "Mark", "Daniel Si.", "Philip H.", "Philipp M.", "Joachim"],
       "mail": "fsr@",
       "allmail": ""
     },
@@ -105,7 +105,7 @@
     },
     {
       "name": "Fachschaftsserverteam (FSS)",
-      "members": ["Heiko", "Joachim", "Fabian F.", "Mira", "Jan H."],
+      "members": ["Heiko", "Joachim", "Fabian F.", "Mira", "Jan H.", "John"],
       "mail": "fss@"
     },
     {
