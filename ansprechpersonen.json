@@ -38,13 +38,13 @@
     },
     {
       "name": "Promotionsausschuss",
-      "members": ["Fabian D.", "Tim Po."],
+      "members": ["Fabian D.", "Tim P."],
       "mail": "fdamken@, tpollandt@",
       "allmail": ""
     },
     {
       "name": "Prüfungskommission",
-      "members": ["Fabian D.", "Tim Po."],
+      "members": ["Fabian D.", "Tim P."],
       "mail": "fdamken@, tpollandt@",
       "allmail": ""
     }
@@ -72,7 +72,7 @@
       "mail": "ophase-leitung@"
     },
     {
-      "name": "Programmiervorkurs",
+      "name": "Programmiervorkurs (WiS 2022)",
       "members": ["Kevin", "Jonas H.", "Ruben"],
       "mail": "vorkurs@"
     },
@@ -100,12 +100,12 @@
     },
     {
       "name": "Discord",
-      "members": [],
-      "mail": ""
+      "members": ["Nath", "Jannis B."],
+      "mail": "discord@"
     },
     {
       "name": "Fachschaftsserverteam (FSS)",
-      "members": ["Heiko", "Joachim", "Fabian F.", "Mira", "Jan H.", "John"],
+      "members": ["Heiko", "Joachim", "Fabian F.", "Mira", "Jan H.", "John", "Daniel Si."],
       "mail": "fss@"
     },
     {
@@ -156,6 +156,11 @@
   ],
   "services": [
     {
+        "name": "Ausleihe",
+        "members": ["Fabian F.", "Yannic H.", "Jannis R."],
+        "mail": "ausleihe@"
+    },
+    {
       "name": "Feedback",
       "members": ["Jonas H., Bernadette, Nathalie, Joachim"],
       "mail": "feedback@"
@@ -169,11 +174,6 @@
       "name": "Inforz",
       "members": [],
       "mail": "inforz@"
-    },
-    {
-      "name": "Laptop-Ausleihe",
-      "members": ["Fabian F."],
-      "mail": "ausleihe@"
     },
     {
       "name": "Online-Self-Assessment (OSA)",
