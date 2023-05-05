@@ -73,7 +73,7 @@
     },
     {
       "name": "Programmiervorkurs (WiS 2022)",
-      "members": ["Kevin", "Jonas H.", "Ruben"],
+      "members": ["Ruben", "Alex", "Jonas R."],
       "mail": "vorkurs@"
     },
     {
@@ -111,7 +111,7 @@
     {
       "name": "Getränkeorga",
       "members": ["Jonathan M."],
-      "mail": "jmueller@"
+      "mail": "getraenke@"
     },
     {
       "name": "Mailman",
@@ -121,7 +121,7 @@
     {
       "name": "Pretix",
       "members": ["Nath"],
-      "mail": "jschild@"
+      "mail": "pretix@"
     },
     {
       "name": "Raumbuchung",
@@ -157,7 +157,7 @@
   "services": [
     {
         "name": "Ausleihe",
-        "members": ["Fabian F.", "Yannic H.", "Jannis R."],
+        "members": ["Yannic H.", "Jannis R."],
         "mail": "ausleihe@"
     },
     {
