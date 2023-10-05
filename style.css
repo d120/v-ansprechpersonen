@@ -54,7 +54,7 @@ table {
 }
 
 .table tbody tr:nth-child(2n) {
-	background-color: #99d8cc;
+	background-color: #304440;
 }
 
 .name + .name::before {
@@ -63,7 +63,7 @@ table {
 
 .info {
 	display: inline-block;
-	border: 3px solid #000;
+	border: 3px solid #fefefe;
 	padding: 0.7rem;
 	margin-bottom: 0;
 }
