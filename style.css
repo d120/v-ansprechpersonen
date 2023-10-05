@@ -66,6 +66,8 @@ table {
 	border: 3px solid #fefefe;
 	padding: 0.7rem;
 	margin-bottom: 0;
+	width: 100%;
+	box-sizing: border-box;
 }
 
 body {
