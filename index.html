@@ -172,24 +172,29 @@
     <script src="https://cdn.jsdelivr.net/npm/vue-router/dist/vue-router.js"></script>
     <script src="app.js"></script>
     <script>
-      function switchTheme() {
-        const themeName = localStorage.getItem('theme') || 'light';
-        if (themeName === 'dark') {
-          theme = 'light';
-        } else if (themeName === 'light') {
-          theme = 'dark';
-        } else {
-          theme = 'dark';
-        }
-
+      function setTheme(theme) {
         const html = document.documentElement;
         html.setAttribute('class', theme);
         localStorage.setItem('theme', theme);
       }
 
+      function switchTheme() {
+        const themeName = localStorage.getItem('theme');
+        if (themeName === 'dark') {
+          theme = 'light';
+        } else if (themeName === 'light') {
+          theme = 'dark';
+        }
+
+        setTheme(theme);
+      }
+
       const button = document.getElementById('theme-button');
       window.onload = () => {
         button.addEventListener('click', switchTheme);
+
+        const theme = localStorage.getItem('theme') || 'light';
+        setTheme(theme);
       }
     </script>
   </body>
