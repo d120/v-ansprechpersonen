@@ -92,7 +92,7 @@ table {
 body {
 	print-color-adjust: exact;
 	height: 100vh;
-	background: rgb(24, 24, 24);
+	background: var(--background-color);
 }
 
 #app {
@@ -137,6 +137,7 @@ body {
 }
 
 #theme-button {
+	font-size: inherit;
 	margin-bottom: 3em;
 	padding: 0.5em 1em;
 	margin-left: auto;

@@ -172,7 +172,6 @@
     <script src="https://cdn.jsdelivr.net/npm/vue-router/dist/vue-router.js"></script>
     <script src="app.js"></script>
     <script>
-      const html = document.documentElement;
       const button = document.getElementById('theme-button');
       button.addEventListener('click', () => {
         const themeName = localStorage.getItem('theme') || 'light';
@@ -184,6 +183,7 @@
           theme = 'dark';
         }
 
+        const html = document.documentElement;
         html.setAttribute('class', theme);
         localStorage.setItem('theme', theme);
       });
