@@ -12,6 +12,7 @@
 
     <template id="home-template">
       <div id="home">
+        <button id="theme-button">Theme</button>
         <router-link to="/committees">Committees</router-link>
         <router-link to="/committeesCentral">Committees (central)</router-link>
         <router-link to="/events">Events</router-link>
@@ -170,5 +171,22 @@
     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue-router/dist/vue-router.js"></script>
     <script src="app.js"></script>
+    <script>
+      const html = document.documentElement;
+      const button = document.getElementById('theme-button');
+      button.addEventListener('click', () => {
+        const themeName = localStorage.getItem('theme') || 'light';
+        if (themeName === 'dark') {
+          theme = 'light';
+        } else if (themeName === 'light') {
+          theme = 'dark';
+        } else {
+          theme = 'dark';
+        }
+
+        html.setAttribute('class', theme);
+        localStorage.setItem('theme', theme);
+      });
+    </script>
   </body>
 </html>

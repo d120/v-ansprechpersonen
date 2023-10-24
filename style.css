@@ -1,3 +1,22 @@
+:root, .light {
+	--background-color: #fafafa;
+	--text-color: #101010;
+	--table-head-bg-color: #009d81;
+	--table-row-bg-color: #99d8cc;
+	--button-color: #ccc;
+	--button-hover-color: #aaa;
+}
+
+.dark {
+	--background-color: #181818;
+	--text-color: #fefefe;
+	--table-head-bg-color: #009d81;
+	--table-row-bg-color: #304440;
+	--button-color: #333;
+	--button-hover-color: #444;
+}
+
+
 @media print {
 body, html {
 	padding: 0;
@@ -12,14 +31,14 @@ table {
 }
 
 .table {
-	border: 3px solid #fefefe;
+	border: 3px solid var(--text-color);
 	grid-gap: 0;
 	font-family: sans-serif;
 }
 
 .table thead {
-	background-color: #009d81;
-	color: #fefefe;
+	background-color: var(--table-head-bg-color);
+	color: var(--text-color);
 }
 
 .table th {
@@ -54,7 +73,7 @@ table {
 }
 
 .table tbody tr:nth-child(2n) {
-	background-color: #304440;
+	background-color: var(--table-row-bg-color);
 }
 
 .name + .name::before {
@@ -63,7 +82,7 @@ table {
 
 .info {
 	display: inline-block;
-	border: 3px solid #fefefe;
+	border: 3px solid var(--text-color);
 	padding: 0.7rem;
 	margin-bottom: 0;
 	width: 100%;
@@ -82,7 +101,7 @@ body {
 	align-items: center;
 	width: 100%;
 	height: 100%;
-	color: #fefefe;
+	color: var(--text-color);
 }
 
 #home {
@@ -90,21 +109,21 @@ body {
 	flex-direction: column;
 }
 
-#home > a {
+#home > a, #theme-button {
 	padding: 0.75em 2em;
 	margin: 0.75em;
-	background-color: #333;
+	background-color: var(--button-color);
 	text-align: center;
-	color: #fefefe;
+	color: var(--text-color);
 	text-decoration: none;
 	position: relative;
 }
 
-#home > a:hover {
-	background-color: #444;
+#home > a:hover, #theme-button:hover {
+	background-color: var(--button-hover-color);
 }
 
-#home > a::before {
+#home > a::before, #theme-button::before {
 	content: "";
 	position: absolute;
 	z-index: -1;
@@ -112,7 +131,14 @@ body {
 	inset: 0;
 }
 
-#home > a:hover::before {
+#home > a:hover::before, #theme-button:hover::before {
 	background: linear-gradient(45deg, #00d061, #0000, #0000, #0061d0);
 	inset: -3px;
+}
+
+#theme-button {
+	margin-bottom: 3em;
+	padding: 0.5em 1em;
+	margin-left: auto;
+	margin-right: auto;
 }
