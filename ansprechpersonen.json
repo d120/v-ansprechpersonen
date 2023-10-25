@@ -8,44 +8,44 @@
     },
     {
       "name": "Fachbereichsrat (FBR)",
-      "members": ["Fabian D.", "Philip H.", "Philipp M."],
+      "members": ["Dini V.", "Pia G.", "Philipp M."],
       "mail": "fbr@",
       "allmail": "fbrat@informatik.tu-darmstadt.de"
     },
     {
       "name": "Fachschaftenkonferenz (FSK)",
-      "members": ["Jenny", "Jonathan M.", "Daniel Si."],
+      "members": ["Jenny N.", "Jonathan M.", "Daniel Si."],
       "mail": "",
       "allmail": "fsk@"
     },
     {
       "name": "Fachschaftsrat (FSR)",
-      "members": ["Fabian D.", "Janika", "Dini", "Tobi", "Mark", "Daniel Si.", "Philip H.", "Philipp M.", "Joachim"],
+      "members": ["Lea P.", "Joachim S.", "Pia G.", "Nath S.", "Yannic H.", "Nico K.", "Jenny N.", "Jan R.", "Philipp M."],
       "mail": "fsr@",
       "allmail": ""
     },
     {
       "name": "Lehr- und Studienausschuss (LuSt)",
-      "members": ["Dini", "Daniel Si.", "Philip H.", "Fabian D. (SU)", "Maria (SU)", "Luca (SU)"],
+      "members": ["Daniel Si.", "Dini V.", "Max H.", "Pia G. (S)", "Frank N. (S)", "Magnus H. (S)"],
       "mail": "lust@",
       "allmail": "lust@informatik.tu-darmstadt.de"
     },
     {
       "name": "Lehre Neu Aufstellen (LeNA, früher: QSL)",
-      "members": ["Fabian D.", "Tim S.", "Jannis R.", "Pia", "Jonas H. (S)", "Daniel Si. (S)", "Tim P. (S)"],
+      "members": ["Pia G.", "Frank N.", "Yannic H."],
       "mail": "sg-verwendung@",
       "allmail": "qsl@informatik.tu-darmstadt.de"
     },
     {
       "name": "Promotionsausschuss",
-      "members": ["Fabian D.", "Tim P."],
-      "mail": "fdamken@, tpollandt@",
+      "members": ["Fabian D.", "Philipp M. (S)"],
+      "mail": "fdamken@, pmacher@",
       "allmail": ""
     },
     {
       "name": "Prüfungskommission",
-      "members": ["Fabian D.", "Tim P."],
-      "mail": "fdamken@, tpollandt@",
+      "members": ["Jonathan M.", "Fabian D."],
+      "mail": "jmueller@, fdamken@",
       "allmail": ""
     }
   ],
@@ -53,59 +53,59 @@
   "events": [
     {
       "name": "Games no Machines (GnoM)",
-      "members": ["Benjamin B.", "Philipp M.", "Sebastian B.", "Jannis B."],
+      "members": ["Benjamin B.", "Philipp M.", "Sebastian B."],
       "mail": "gnom-orga@"
     },
     {
-      "name": "Nikolausfeier (WiS 2022)",
-      "members": ["Luca", "Philipp M.", "John", "Roni"],
+      "name": "Nikolausfeier (WiS 2023)",
+      "members": ["Max H.", "Philipp M.", "Lea P."],
       "mail": "nikolausfeier@"
     },
     {
-      "name": "Ofahrtleitung (WiS 2022)",
-      "members": ["Fabian D.", "Jannis R.", "Tim S."],
+      "name": "Ofahrtleitung (WiS 2023)",
+      "members": ["Maria K.", "Tim S.", "Jannis R."],
       "mail": "ofahrt-leitung@"
     },
     {
       "name": "Ophasenleitung (WiS 2023)",
-      "members": ["Joachim", "Frank", "Daniel Si."],
+      "members": ["Frank N.", "Joachim S.", "Daniel Si."],
       "mail": "ophase-leitung@"
     },
     {
-      "name": "Programmiervorkurs (WiS 2022)",
-      "members": ["Ruben", "Alex", "Jonas R."],
+      "name": "Programmiervorkurs (WiS 2023)",
+      "members": ["Jonas R.", "Ruben D.", "Alex S."],
       "mail": "vorkurs@"
     },
     {
       "name": "Roleplay GnoM (RPGnoM)",
-      "members": ["Jonathan M.", "Jenny", "Max"],
+      "members": ["Jonathan M.", "Jenny N.", "Max H."],
       "mail": "rpgnom-orga@"
     },
     {
       "name": "Sommerfest (SoS 2023)",
-      "members": ["Philipp", "Jan", "Yannic", "Lea", "Nico", "Roni"],
+      "members": ["Philipp M.", "Jan R.", "Yannic H.", "Lea P.", "Nico K.", "Roni A."],
       "mail": "sommerfest@"
     },
     {
       "name": "Universitätserfahrung (UE)",
-      "members": ["Hannah", "Denys"],
+      "members": ["Hannah K.", "Denys S."],
       "mail": "ue@"
     }
   ],
   "internal": [
     {
       "name": "Absolvent*innen",
-      "members": ["Kevin", "Janika"],
+      "members": ["Kevin O.", "Janika K."],
       "mail": "ua-absolventen@"
     },
     {
       "name": "Discord",
-      "members": ["Nath", "Jannis B."],
+      "members": ["Nath S.", "Jannis B."],
       "mail": "discord@"
     },
     {
       "name": "Fachschaftsserverteam (FSS)",
-      "members": ["Joachim", "Zora F.", "Mira", "Jan H.", "John", "Daniel Si."],
+      "members": ["Joachim S.", "Zora F.", "Mira W.", "Jan H.", "John C.", "Daniel Si."],
       "mail": "fss@"
     },
     {
@@ -115,27 +115,27 @@
     },
     {
       "name": "Mailman",
-      "members": ["Pia"],
+      "members": ["Pia G."],
       "mail": "pgrimmer@"
     },
     {
       "name": "Pretix",
-      "members": ["Nath"],
+      "members": ["Nath S."],
       "mail": "pretix@"
     },
     {
       "name": "Raumbuchung",
-      "members": ["Hannah", "Pia", "Jan R."],
+      "members": ["Hannah K.", "Pia G.", "Jan R."],
       "mail": "raumbuchung@"
     },
     {
       "name": "Social Media",
-      "members": ["Nico Kr.", "Luca", "Jan R.", "Sebastian Sp.", "Josias"],
+      "members": ["Nico K.", "Luca L.", "Jan R.", "Sebastian Sp.", "Josias W."],
       "mail": "socialmedia@"
     },
     {
       "name": "Transponderbeauftragte",
-      "members": ["Dini"],
+      "members": ["Dini V."],
       "mail": "dini@"
     },
     {
@@ -145,24 +145,24 @@
     },
     {
       "name": "Vereinsvorstand",
-      "members": ["Pia", "Hannah", "Jonas R."],
+      "members": ["Jonathan M.", "Dini V."],
       "mail": "verein-vorstand@"
     },
     {
       "name": "Webseite",
-      "members": ["Tristan", "Joachim", "Magnus"],
+      "members": ["Tristan S.", "Joachim S.", "Magnus H."],
       "mail": "webseite@"
     }
   ],
   "services": [
     {
         "name": "Ausleihe",
-        "members": ["Yannic H.", "Jannis R."],
+        "members": ["Yannic H.", "Lea", "Max"],
         "mail": "ausleihe@"
     },
     {
       "name": "Feedback",
-      "members": ["Jonas H., Bernadette, Nathalie, Joachim"],
+      "members": ["Sascha", "Bernadette", "Nathalie", "Joachim"],
       "mail": "feedback@"
     },
     {
